@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+.no-marginBanner{
+	margin:-2px;
+}
+
+.no-paddingBanner{
+	padding:1px;
+}
+
+.login{
+	background-color:#2B2154;
+	padding-bottom:50%;
+}
+
+.loginMsg{
+	font-size:25px;
+	color:white;
+	text-align:center;
+	padding-top:42px;
+	padding-bottom:10px;
+}
+
+.login form input{
+	margin-left:5px;
+	width:95%;
+	margin-bottom:15px;
+}
+.regMsg{
+	background-color:#5C4283;
+	text-align:center;
+	padding:10px;
+	color:#ffffff;
+	font-size:20px;
+	margin-bottom:10px;
+	margin-top:0px;
+}
+.regForm table tr td{
+	height:18px;
+	padding:5px;
+	font-size:17px;
+}
+
+.regForm table tr td input{
+	width:100%;
+}
+
+.regForm{
+	border-radius:2px solid red;
+}
+
+.userMenu{
+	float:right;
+	margin-bottom:13px;
+	background-color:#470600;
+	padding:10px;
+	width:100%;
+}
+
+.userMenu ul{
+	list-style:none;
+	float:right;
+}
+.userMenu ul li{
+	float:left;
+	margin-right:12px;
+}
+.userMenu ul li a{
+	color:green;
+}
+.userMenu ul li:hover a{
+	color:#ffffff;
+}
+
+.postTable tr td{
+	padding-bottom:8px;
+}
+
+.myPosts table tr td{
+	padding-bottom:10px;
+}
+
+.myPosts h4{
+	text-align:center;
+	background-color:#5C4283;
+	color:#ffffff;
+}
+
+.myPosts{
+	box-shadow:3px 3px 5px 4px #E5E5E5;
+}
+
+.welcomeMsgBox{
+	margin-top:20px;
+	box-shadow:3px 3px 5px 4px #E5E5E5;
+}
+.welcomeMsgText{
+	text-align:justify;
+	padding:5px;
+}
+
+
+

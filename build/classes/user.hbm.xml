@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+   <class name="model.User" table="user" schema="system">
+      <id name="uid" type="integer">
+      </id>  
+      <property name="uFirstName" column="uFirstName" type="string"/>
+      <property name="uLastName" column="uLastName" type="string"/>
+      <property name="uPhn" column="uPhn" type="string"/>
+      <property name="uEmail" column="uEmail" type="string"/>
+      <property name="uDept" column="uDept" type="string"/>
+      <property name="uSession" column="uSession" type="string"/>
+      <property name="uName" column="uName" type="string"/>
+      <property name="uPassword" column="uPassword" type="string"/>
+   </class>
+</hibernate-mapping>

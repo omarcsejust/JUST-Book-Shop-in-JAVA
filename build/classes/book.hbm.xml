@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+   <class name="model.Book" table="book" schema="system">
+      <id name="bid" type="integer">
+      </id>  
+      <property name="bName" column="bName" type="string"/>
+      <property name="bAuthor" column="bAuthor" type="string"/>
+      <property name="bEdition" column="bEdition" type="string"/>
+      <property name="bPrice" column="bPrice" type="float"/>
+      <property name="bCategory" column="bCategory" type="string"/>
+      <property name="postDate" column="postDate" type="string"/>
+      <property name="phnNum" column="phnNum" type="string"/>
+      <property name="uid" column="uid" type="integer"/>
+   </class>
+</hibernate-mapping>
